@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @MaheshKumbhar0880
-- 👀 I’m interested in Data Science, Machine Learning, AI
+- 👀 I’m interested in Data Science, Machine Learning, Deep Learning, AI.
 - 🌱 I’m currently learning Data science, and I am a working professional as well.
 
 
