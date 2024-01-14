@@ -1,0 +1,41 @@
+name: Data Pipeline Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Google Cloud SDK
+      uses: google-github-actions/setup-gcloud@master
+      with:
+        service_account_key: ${{ secrets.GCP_SA_KEY }}
+        project_id: ${{ secrets.GCP_PROJECT_ID }}
+
+    - name: Create BigQuery Dataset
+      run: |
+        bq --location=US mk --dataset ${{ secrets.BQ_DATASET }}
+
+    - name: Create BigQuery Table
+      run: |
+        bq mk --table \
+          --time_partitioning_field timestamp \
+          ${{ secrets.BQ_DATASET }}.your_table_name \
+          schema.json
+
+    # Additional steps for your data pipeline tasks can be added here
+
+    - name: Run Data Pipeline
+      run: |
+        # Add commands to run your data pipeline here
+
+    - name: Cleanup
+      run: |
+        # Add cleanup tasks if needed
