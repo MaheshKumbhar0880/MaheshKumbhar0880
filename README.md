@@ -1,11 +1,11 @@
-- 👋 Hi, I’m @MaheshKumbhar0880
-- I am working as Google cloud data engineer, having extensive experience on data migration, ETL, data visualization using GCP Looker.
-- having hands on experince on GCP, BigQuery, GCS, Airflow, GCP Workflows, Jenkins, SQL, control-m, Looker.
-- 👀 I’m interested in Data Science, Machine Learning, Deep Learning, AI.
-- 🌱 I’m currently learning Data science, and I am a working professional as well.
-
-
-<!---
-MaheshKumbhar0880/MaheshKumbhar0880 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- 👋 Hi, I’m @MaheshKumbhar0880  
+- 💼 I’m a **Google Cloud Data Engineer** with strong experience in **data migration**, **ETL pipeline development**, and **data visualization** using **GCP Looker**.  
+- 🌐 My tech toolbox includes:  
+  - ☁️ **Google Cloud Platform (GCP)**: BigQuery, Cloud Storage (GCS), Workflows, Pub/Sub  
+  - ☁️ **Microsoft Azure**: Data Factory, Data Lake Gen2 (ADLS), Synapse, Stream Analytics  
+  - 🔷 **Databricks**: Delta Live Tables, Delta Lake, PySpark, Spark Optimizations  
+  - 🔁 **Orchestration & CI/CD**: Apache Airflow, Jenkins, Control-M  
+  - 🧠 **Modeling & Transformation**: DBT, SQL, Python  
+  - 📊 **Visualization**: Looker  
+- 🤖 I’m passionate about **Data Science**, **Machine Learning**, **Deep Learning**, and **AI**  
+- 🌱 Currently learning and applying **Data Science** concepts alongside my full-time role.
